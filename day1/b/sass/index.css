@@ -1,0 +1,509 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0; }
+
+body, html {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 2rem; }
+  header .sp1 {
+    display: inline-block;
+    width: 2.12rem;
+    height: .7rem;
+    margin-left: .18rem;
+    margin-top: .16rem;
+    margin-bottom: .16rem; }
+    header .sp1 img {
+      width: 100%;
+      height: 100%; }
+  header .sp2 {
+    display: inline-block;
+    width: 1.2rem;
+    height: .7rem;
+    margin-right: .18rem; }
+    header .sp2 a {
+      width: 100%;
+      height: 100%; }
+      header .sp2 a figure {
+        width: .45rem;
+        height: .78rem;
+        float: left;
+        text-align: center;
+        line-height: .2rem;
+        overflow: hidden; }
+        header .sp2 a figure img {
+          width: 0.45rem;
+          height: 0.45rem;
+          color: #999;
+          font-size: 0.45rem; }
+        header .sp2 a figure figcaption {
+          color: #999;
+          font-size: .22rem; }
+
+.content {
+  flex-grow: 1;
+  overflow: auto; }
+  .content .banner {
+    width: 100%;
+    height: 2.38rem; }
+    .content .banner img {
+      width: 100%;
+      height: 100%; }
+  .content .fig {
+    width: 100%;
+    height: 4.6rem;
+    border-bottom: 0.18rem solid #f4f4f4; }
+    .content .fig figure {
+      float: left;
+      width: 1.2rem;
+      height: 1.74rem;
+      text-align: center; }
+      .content .fig figure img {
+        width: 1.2rem;
+        height: 1.2rem; }
+      .content .fig figure figcaption {
+        font-size: 0.24rem;
+        color: #333; }
+    .content .fig figure:nth-child(1) {
+      margin-left: 0.3rem;
+      margin-top: 0.36rem; }
+      .content .fig figure:nth-child(1) figcaption {
+        margin-top: 0.28rem; }
+    .content .fig figure:nth-child(2) {
+      margin-left: 0.7rem;
+      margin-top: 0.36rem; }
+      .content .fig figure:nth-child(2) figcaption {
+        margin-top: 0.28rem; }
+    .content .fig figure:nth-child(3) {
+      margin-left: 0.7rem;
+      margin-top: 0.36rem; }
+      .content .fig figure:nth-child(3) figcaption {
+        margin-top: 0.28rem; }
+    .content .fig figure:nth-child(4) {
+      margin-left: 0.7rem;
+      margin-top: 0.36rem; }
+      .content .fig figure:nth-child(4) figcaption {
+        margin-top: 0.28rem; }
+    .content .fig figure:nth-child(5) {
+      margin-left: 0.3rem;
+      margin-top: 0.52rem; }
+      .content .fig figure:nth-child(5) figcaption {
+        margin-top: 0.28rem; }
+    .content .fig figure:nth-child(6) {
+      margin-left: 0.7rem;
+      margin-top: 0.52rem; }
+      .content .fig figure:nth-child(6) figcaption {
+        margin-top: 0.28rem; }
+    .content .fig figure:nth-child(7) {
+      margin-left: 0.7rem;
+      margin-top: 0.52rem; }
+      .content .fig figure:nth-child(7) figcaption {
+        margin-top: 0.28rem; }
+    .content .fig figure:nth-child(8) {
+      margin-left: 0.7rem;
+      margin-top: 0.52rem; }
+      .content .fig figure:nth-child(8) figcaption {
+        margin-top: 0.28rem; }
+  .content .qwzx {
+    width: 100%;
+    border-bottom: 0.18rem solid #f4f4f4; }
+    .content .qwzx .bt {
+      margin: 0.32rem 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 0.42rem;
+      border-left: 0.05rem solid #3ac994; }
+      .content .qwzx .bt .sp1 {
+        padding-left: 0.12rem;
+        padding-right: 0.22rem;
+        font-size: 0.36rem;
+        color: #000000; }
+      .content .qwzx .bt span {
+        font-size: 0.24rem;
+        color: #999999; }
+    .content .qwzx .tp {
+      margin: 0 auto;
+      width: 7.14rem;
+      height: 4.04rem; }
+      .content .qwzx .tp .img {
+        width: 100%;
+        height: 100%; }
+    .content .qwzx .tp1 {
+      margin: 0.36rem auto;
+      width: 7.08rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .content .qwzx .tp1 .div {
+        display: flex;
+        align-items: center; }
+        .content .qwzx .tp1 .div img {
+          width: 0.36rem;
+          height: 0.36rem; }
+        .content .qwzx .tp1 .div .span1 {
+          overflow: hidden;
+          font-size: 0.31rem;
+          width: 2.13rem;
+          height: 0.36rem; }
+        .content .qwzx .tp1 .div .span2 {
+          overflow: hidden;
+          font-size: 0.31rem;
+          width: 1.64rem;
+          height: 0.36rem; }
+        .content .qwzx .tp1 .div .span3 {
+          overflow: hidden;
+          font-size: 0.31rem;
+          width: 1.25rem;
+          height: 0.36rem; }
+  .content .zxyy {
+    width: 100%;
+    border-bottom: 0.18rem solid #f4f4f4; }
+    .content .zxyy .bt {
+      margin: 0.32rem 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 0.42rem;
+      border-left: 0.05rem solid #3ac994; }
+      .content .zxyy .bt .sp1 {
+        padding-left: 0.12rem;
+        padding-right: 0.22rem;
+        font-size: 0.36rem;
+        color: #000000; }
+      .content .zxyy .bt span {
+        font-size: 0.24rem;
+        color: #999999; }
+    .content .zxyy .zc {
+      margin: 0 auto;
+      width: 5.88rem;
+      height: 4rem;
+      margin-bottom: 0.36rem; }
+      .content .zxyy .zc input {
+        width: 5.86rem;
+        height: .7rem;
+        border: 0.01rem solid #eaeaea;
+        border-radius: 0.05rem;
+        font-size: 0.28rem;
+        color: #cacaca;
+        margin-top: 0.25rem; }
+      .content .zxyy .zc button {
+        width: 5.86rem;
+        height: .7rem;
+        background: #feb605;
+        border-radius: 0.05rem;
+        font-size: 0.36rem;
+        color: white;
+        margin-top: 0.25rem; }
+  .content .sjs {
+    width: 100%;
+    border-bottom: 0.18rem solid #f4f4f4; }
+    .content .sjs .bt {
+      margin: 0.32rem 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 0.42rem;
+      border-left: .05rem solid #3ac994; }
+      .content .sjs .bt .sp1 {
+        padding-left: .12rem;
+        padding-right: .22rem;
+        font-size: .36rem;
+        color: #000000; }
+    .content .sjs .sjs1 {
+      width: 7.12rem;
+      height: 2.42rem;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap; }
+      .content .sjs .sjs1 figure {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 1.42rem;
+        height: 2.42rem; }
+        .content .sjs .sjs1 figure img {
+          width: 1.4rem;
+          height: 1.4rem; }
+        .content .sjs .sjs1 figure figcaption p:nth-child(1) {
+          font-size: 0.36rem;
+          color: #000000; }
+        .content .sjs .sjs1 figure figcaption p:nth-child(2) {
+          width: 1.2rem;
+          height: .32rem;
+          font-size: 0.24rem;
+          color: white;
+          background: #39c893; }
+      .content .sjs .sjs1 figure:nth-child(2) {
+        margin-left: 0.45rem; }
+      .content .sjs .sjs1 figure:nth-child(3) {
+        margin-left: 0.45rem; }
+      .content .sjs .sjs1 figure:nth-child(4) {
+        margin-left: 0.45rem; }
+    .content .sjs .sjs2 {
+      width: 7.15rem;
+      height: .7rem;
+      margin-top: .36rem; }
+      .content .sjs .sjs2 div {
+        width: 49%;
+        height: 100%;
+        font-size: .28rem;
+        color: #39c893;
+        float: left;
+        text-align: center;
+        border: 0.01rem solid #f4f4f4; }
+        .content .sjs .sjs2 div p {
+          font-size: .28rem;
+          color: #39c893; }
+          .content .sjs .sjs2 div p img {
+            width: .28rem;
+            height: .28rem; }
+  .content .xgt {
+    width: 100%;
+    border-bottom: 0.18rem solid #f4f4f4; }
+    .content .xgt .bt {
+      margin: 0.32rem 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 0.42rem;
+      border-left: 0.05rem solid #3ac994; }
+      .content .xgt .bt .sp1 {
+        padding-left: 0.12rem;
+        padding-right: 0.22rem;
+        font-size: 0.36rem;
+        color: #000000; }
+    .content .xgt .img1 {
+      width: 7.16rem;
+      height: 10.15rem;
+      margin: 0 auto; }
+      .content .xgt .img1 .img1-1 {
+        width: 7.16rem;
+        height: 5.06rem; }
+        .content .xgt .img1 .img1-1 img {
+          width: 100%;
+          height: 100%; }
+      .content .xgt .img1 .img1-2 {
+        width: 7.16rem;
+        height: 5.09rem; }
+        .content .xgt .img1 .img1-2 img {
+          width: 3.54rem;
+          height: 2.5rem;
+          margin-top: 0.08rem; }
+        .content .xgt .img1 .img1-2 img:nth-child(2) {
+          margin-left: 0.08rem; }
+        .content .xgt .img1 .img1-2 img:nth-child(4) {
+          margin-left: 0.08rem; }
+    .content .xgt .xgt1 {
+      width: 7.15rem;
+      height: .7rem;
+      margin-top: .36rem; }
+      .content .xgt .xgt1 div {
+        width: 49%;
+        height: 100%;
+        font-size: .28rem;
+        color: #39c893;
+        float: left;
+        text-align: center;
+        border: 0.01rem solid #f4f4f4; }
+        .content .xgt .xgt1 div p {
+          font-size: .28rem;
+          color: #39c893; }
+          .content .xgt .xgt1 div p img {
+            width: .28rem;
+            height: .28rem; }
+  .content .gdzb {
+    width: 100%;
+    border-bottom: 0.18rem solid #f4f4f4; }
+    .content .gdzb .bt {
+      margin: 0.32rem 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 0.42rem;
+      border-left: 0.05rem solid #3ac994; }
+      .content .gdzb .bt .sp1 {
+        padding-left: 0.12rem;
+        padding-right: 0.22rem;
+        font-size: 0.36rem;
+        color: #000000; }
+    .content .gdzb .img1 {
+      width: 7.16rem;
+      height: 6.26rem;
+      margin: 0 auto; }
+      .content .gdzb .img1 .img1-1 {
+        width: 7.16rem;
+        height: 5.34rem; }
+        .content .gdzb .img1 .img1-1 img {
+          width: 100%;
+          height: 100%; }
+      .content .gdzb .img1 .wz {
+        width: 7.16rem;
+        height: .86rem;
+        color: #000000;
+        font-size: .28rem; }
+        .content .gdzb .img1 .wz p {
+          width: 30%;
+          float: left;
+          margin-top: 0.4rem;
+          color: #000000;
+          font-size: .28rem; }
+        .content .gdzb .img1 .wz span {
+          float: left;
+          margin-top: 0.4rem;
+          margin-left: .32rem;
+          text-align: center;
+          display: inline-block;
+          width: 1.16rem;
+          height: .34rem;
+          background: #3ac994;
+          font-size: .24rem;
+          color: white; }
+    .content .gdzb .gdzb1 {
+      width: 7.15rem;
+      height: .7rem;
+      margin-top: .36rem; }
+      .content .gdzb .gdzb1 div {
+        width: 49%;
+        height: 100%;
+        font-size: .28rem;
+        color: #39c893;
+        float: left;
+        text-align: center;
+        border: 0.01rem solid #f4f4f4; }
+        .content .gdzb .gdzb1 div p {
+          font-size: .28rem;
+          color: #39c893; }
+          .content .gdzb .gdzb1 div p img {
+            width: .28rem;
+            height: .28rem; }
+  .content .content-gonglue {
+    width: 100%;
+    border-bottom: 0.2rem solid #f4f4f4; }
+    .content .content-gonglue .shejishi {
+      margin: 0.32rem 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 0.42rem;
+      border-left: 0.05rem solid #3ac994; }
+      .content .content-gonglue .shejishi .span1 {
+        padding-left: 0.12rem;
+        padding-right: 0.22rem;
+        font-size: 0.36rem;
+        color: #000000; }
+    .content .content-gonglue .tuwen-top figure {
+      width: 7.13rem;
+      height: 1.46rem;
+      display: flex;
+      justify-content: space-between; }
+      .content .content-gonglue .tuwen-top figure img {
+        width: 1.9rem;
+        height: 1.45rem; }
+      .content .content-gonglue .tuwen-top figure figcaption {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 4.96rem;
+        height: 1.44rem; }
+        .content .content-gonglue .tuwen-top figure figcaption .g-1 {
+          font-size: 0.36rem;
+          color: #000;
+          width: 4.96rem;
+          height: 0.92rem; }
+        .content .content-gonglue .tuwen-top figure figcaption .g-2 {
+          display: flex;
+          width: 3.83rem;
+          height: 0.3rem; }
+          .content .content-gonglue .tuwen-top figure figcaption .g-2 span {
+            color: #999;
+            font-size: 0.27rem; }
+          .content .content-gonglue .tuwen-top figure figcaption .g-2 .span1 {
+            margin-right: 0.12rem;
+            font-size: 0.28rem; }
+          .content .content-gonglue .tuwen-top figure figcaption .g-2 .span3 {
+            margin-left: 0.75rem;
+            margin-right: 0.12rem;
+            font-size: 0.28rem; }
+    .content .content-gonglue .top1 {
+      padding-bottom: 0.32rem; }
+    .content .content-gonglue .top2 {
+      padding-bottom: 0.32rem;
+      padding-top: 0.32rem;
+      border-bottom: 0.01rem solid #ececec;
+      border-top: 0.01rem solid #ECECEC; }
+    .content .content-gonglue .top3 {
+      padding-top: 0.32rem; }
+    .content .content-gonglue .gongdi-huan {
+      margin: 0.36rem auto;
+      width: 7.15rem;
+      height: .7rem;
+      display: flex; }
+      .content .content-gonglue .gongdi-huan p {
+        width: 50%;
+        height: 100%;
+        border: .01rem solid #ececec;
+        text-align: center;
+        line-height: .2rem; }
+        .content .content-gonglue .gongdi-huan p .span1 {
+          font-size: .28rem;
+          color: #39c893; }
+        .content .content-gonglue .gongdi-huan p .span2 {
+          color: #39c893; }
+  .content .wwen {
+    border-bottom: 0.2rem solid #f4f4f4;
+    width: 7.5rem;
+    height: 2.45rem;
+    display: flex;
+    align-items: center; }
+    .content .wwen .wen {
+      line-height: 0.43rem;
+      margin: 0 auto;
+      text-indent: 2em;
+      margin: 0 auto;
+      display: flex;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      width: 6.9rem;
+      height: 1.75rem;
+      font-size: 0.25rem;
+      color: #333; }
+
+footer {
+  width: 100%;
+  height: 1.96rem; }
+  footer .wen {
+    margin-top: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 0.9rem; }
+    footer .wen .span1 {
+      color: #39C893;
+      font-size: 0.38rem; }
+    footer .wen span {
+      font-size: 0.28rem;
+      color: #333333; }
+    footer .wen .wenzi {
+      display: flex;
+      width: 100%;
+      height: 0.3rem; }
+      footer .wen .wenzi p {
+        width: 25%;
+        font-size: 0.3rem;
+        text-align: center; }
+
+/*# sourceMappingURL=index.css.map */
